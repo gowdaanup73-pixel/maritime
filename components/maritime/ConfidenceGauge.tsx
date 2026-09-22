@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface ConfidenceGaugeProps {
-  score: number; // 0 to 100 or 0 to 1
+  score: number;
   label?: string;
   size?: number;
 }
