@@ -12,7 +12,6 @@ export interface CostBreakdownProps {
   totalCost: string | number;
   className?: string;
 }
-
 export const CostBreakdown: React.FC<CostBreakdownProps> = ({
   items,
   totalCost,
